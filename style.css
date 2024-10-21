@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: rgb(5, 23, 39);
+    padding: 30px;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li .active{
+    color: #1edf92;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
